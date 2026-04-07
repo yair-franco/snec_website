@@ -1,0 +1,129 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oswald {
+    font-family: "Oswald";
+}
+
+a {
+    color: rgb(176, 238, 255);
+}
+
+button {
+    border: 0;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(190, 190, 190);
+    transition: background-color 0.5s;
+}
+
+.header {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_link {
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    transition: color 0.5s;
+}
+
+.top_link:hover {
+    color: gray;
+}
+
+/* Indicates the button for the current page */
+.here {
+    background-color: black;
+    color: white;
+}
+
+.main_cont {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.low_border {
+    display: flex;
+    box-shadow: 0 10px 0 0 white;
+    font-size: 64px;
+    padding: 60px;
+    text-align: center;
+    width: 60%;
+}
+
+.blue_box {
+    background-color: rgb(66, 66, 125);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 95%;
+}
+
+.col_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.col_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer {     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    background-color: gainsboro;
+    padding: 5px 5px;
+    margin-top: 10px;
+    width: 95%;
+}
+
+/* Members page stlying here */
+
+.portrait_cont {
+    width: 175px;
+}
+
+.portrait {
+    width: 150px;
+    height: 150px;
+}
+
+.name {
+    font-weight: bold;
+    text-decoration: underline;
+}
