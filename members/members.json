@@ -1,0 +1,58 @@
+{
+    "members": [
+        {
+            "name": "Christie Rowe",
+            "role": "Director, Nevada Seismological Laboratory",
+            "interests": "earthquake geology, NV earthquakes",
+            "img": "christie.jpeg"
+        },
+        {
+            "name": "William 'Drew' Andrews",
+            "role": "Manager, Geologic Mapping Program, Nevada Bureau of Mines and Geology",
+            "interests": "3D framework delineation, applied geospatial geology",
+            "img": "drew.jpg"
+        },
+        {
+            "name": "Kyren Bogolub",
+            "role": "Network Seismologist, Nevada Seismological Laboratory",
+            "interests": "seismology, seismic monitoring",
+            "img": "kyren.jpg"
+        },
+        {
+            "name": "Jim Brune",
+            "role": "Emeritus, Nevada Seismological Laboratory",
+            "interests": "seismology, earthquake hazards, source mechanisms",
+            "img": "jim.jpeg"
+        },
+        {
+            "name": "Prof. Wenrong Cao",
+            "role": "Associate Professor, Department of Geological Sciences and Engineering, UNR",
+            "interests": "structural geology, tectonics, numerical geodynamics",
+            "img": "wenrong.jpg"
+        },
+        {
+            "name": "Prof. Pat Cashman",
+            "role": "Professor Emerita, Department of Geological Sciences and Engineering, UNR",
+            "interests": "field and structural geology, northern Walker Lane",
+            "img": ""
+        },
+        {
+            "name": "Guo Chen",
+            "role": "Postdoctoral Researcher, Department of Geological Sciences and Engineering, UNR",
+            "interests": "",
+            "img": ""
+        },
+        {
+            "name": "Aren Crandall-Bear",
+            "role": "Graduate Student, Department of Geological Sciences and Engineering, UNR",
+            "interests": "",
+            "img": ""
+        },
+        {
+            "name": "Carter Dills",
+            "role": "Graduate Student, Nevada Seismological Laboratory",
+            "interests": "ground motion modeling, paleoseismology, earthquake-induced landslides",
+            "img": "carter.jpg"
+        }
+    ]
+}
