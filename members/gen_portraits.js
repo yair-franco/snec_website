@@ -3,7 +3,7 @@
 ``
 
 console.log("Yair Franco, 2026");
-const jsonFilePath = './members.json';
+const members_data = './members.json';
 
 loadMembers();
 
@@ -11,7 +11,7 @@ loadMembers();
 async function loadMembers() {
     try {
         // Fetch the JSON file
-        const response = await fetch(jsonFilePath);
+        const response = await fetch(members_data);
 
         // Check if the response is OK
         if (!response.ok) {
@@ -65,13 +65,13 @@ function generatePortraits(members) {
         const name = member.name;
         const role = member.role;
         const interests = member.interests;
-        //if img field is blank, use default portrait
+        //if img field is blank (empty strings are falsy), use default portrait
         const img = member.img ? member.img : "default.jpg";
          
-        console.log("data:",name, role, interests,img)
+        console.log("data:",name, role, interests, img)
 
         //Create html elements for each item 
-        const img_elem = $('<img />')
+        const img_elem = $('<img>')
             .addClass('portrait')
             .attr("src", `./img/${img}`);
 
@@ -83,7 +83,7 @@ function generatePortraits(members) {
             .addClass('port_desc')
             .html(role);
 
-        const interests_elem = $('<p>')
+        const interests_elem = $('<i>')
             .addClass('port_desc')
             .html(interests);
 
