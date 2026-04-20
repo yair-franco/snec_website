@@ -130,13 +130,13 @@
             "name": "Chris Kratt",
             "role": "Laboratory Coordinator, CTEMPs",
             "interests": "gravity, magnetics, DAS",
-            "img": ""
+            "img": "chriskratt.png"
         },
         {
             "name": "Prof. Corné Kreemer",
             "role": "Research Professor, Nevada Bureau of Mines and Geology",
             "interests": "GPS time-series analysis, seismic hazard, earthquake statstics",
-            "img": ""
+            "img": "corne.png"
         },
         {
             "name": "Prof. John Louie",
@@ -172,19 +172,19 @@
             "name": "Nina Miller",
             "role": "Graduate Student, Department of Geological Sciences and Engineering, UNR",
             "interests": "geodetic data, crustal deformation, geophysics",
-            "img": ""
+            "img": "nina.png"
         },
         {
             "name": "Prof. Ramin Motamed",
             "role": "Professor, Civil and Environmental Engineering, UNR",
             "interests": "ground motions, site response analysis, liquefaction",
-            "img": ""
+            "img": "ramin.png"
         },
         {
             "name": "Prof. Saeedeh Naziri",
             "role": "Teaching Assistant Professor, Department of Geological Sciences and Engineering, UNR",
             "interests": "",
-            "img": ""
+            "img": "saeedeh.png"
         },
         {
             "name": "Annie Patton",
@@ -196,7 +196,7 @@
             "name": "Prof. Floriana Petrone",
             "role": "Assistant Professor, Civil and Environmental Engineering, UNR",
             "interests": "stochastic safety assessments, reinforced concrete modelling, structural damage",
-            "img": ""
+            "img": "floriana.png"
         },
         {
             "name": "Prof. Remnin Pretell",
@@ -220,13 +220,13 @@
             "name": "Bill Savran",
             "role": "Network Manager, Nevada Seismological Laboratory",
             "interests": "seismology, seismic hazard",
-            "img": ""
+            "img": "billsavran.png"
         },
         {
             "name": "Prof. Elnaz Seylabi",
             "role": "Assistant Professor, Civil and Environmental Engineering, UNR",
             "interests": "engineering seismology, engineering mechanics, uncertainty quantification",
-            "img": ""
+            "img": "elnaz.png"
         },
         {
             "name": "Ken Smith",
@@ -238,7 +238,7 @@
             "name": "Charles Trexler",
             "role": "Research Geologist, Earthquake Science Center, USGS",
             "interests": "geomorphology, active tectonics, structural geology",
-            "img": ""
+            "img": "charles.png"
         },
         {
             "name": "Prof. Daniel Trugman",
@@ -247,10 +247,10 @@
             "img": ""
         },
         {
-            "name": "Nicol Wagoner",
+            "name": "Nicole Wagoner",
             "role": "Graduate Student, Department of Geological Sciences and Engineering, UNR",
             "interests": "geothermal energy, subsurface characterization, geochemistry",
-            "img": ""
+            "img": "nicole.png"
         },
         {
             "name": "Prof. Steve Wesnousky",
