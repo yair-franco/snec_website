@@ -1,9 +1,22 @@
 body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Bypass flex 1 in mobile */
+@media (max-width: 768px) {
+    body {
+        height: auto; /* Allow content to flow naturally */
+        display: block; /* Disable flex layout */
+    }
+
+    .main_cont {
+        flex: none; /* Remove flex-grow behavior */
+    }
 }
 
 .oswald {
@@ -26,14 +39,21 @@ button:hover {
 
 .header {
     width: 95%;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .top_link {
     border: 1px solid black;
     padding: 10px;
+    margin: 5px;
     color: black;
     transition: color 0.5s;
 }
@@ -49,8 +69,9 @@ button:hover {
 }
 
 .main_cont {
-    flex-grow: 1;
     display: flex;
+    flex: 1;
+    min-width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -58,9 +79,9 @@ button:hover {
 
 .low_border {
     display: flex;
-    box-shadow: 0 10px 0 0 white;
+    border-bottom: 10px solid white;
     font-size: 64px;
-    padding: 60px;
+    padding: 50px;
     text-align: center;
     justify-content: center;
     width: 60%;
@@ -68,6 +89,14 @@ button:hover {
 
 .blue_box {
     background-color: rgb(66, 66, 125);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 98%;
+}
+
+.gray_box {
+    background-color: rgb(105, 100, 118);
     color: white;
     padding: 20px;
     margin: 10px;
@@ -102,7 +131,7 @@ button:hover {
     align-items: flex-start;
 }
 
-.footer {     
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;

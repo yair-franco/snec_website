@@ -42,25 +42,25 @@ async function loadMembers() {
         members = [firstMember, ...remainingMembers];
 
         generatePortraits(members);
+        console.log("Portraits loaded successfully")
     } catch (error) {
         console.error('Error loading members:', error);
+        
     }
 }
 
 //This code relies on JQuery for html element generation
 
 function generatePortraits(members) {
-    console.log("Initializing load members")
     const max_per_row = 4
-    var imgs_this_row = 0
+    let imgs_this_row = 0
 
     //Create container for first row of portraits
-    var portrait_row = $('<div></div>', {
+    let portrait_row = $('<div></div>', {
         "class": "portrait_row row_top scripted"
     });
 
     members.forEach(member => {
-        console.log("Parsing Member")
         //Parse JSON data for member
         const name = member.name;
         const role = member.role;
@@ -68,7 +68,7 @@ function generatePortraits(members) {
         //if img field is blank (empty strings are falsy), use default portrait
         const img = member.img ? member.img : "default.jpg";
          
-        console.log("data:",name, role, interests, img)
+        //console.log("data:",name, role, interests, img)
 
         //Create html elements for each item 
         const img_elem = $('<img>')
@@ -88,26 +88,27 @@ function generatePortraits(members) {
             .html(interests);
 
         //Create portrait container div
-        var portrait_cont = $('<div>')
+        let portrait_cont = $('<div>')
             .addClass("col_center portrait_cont");
 
-        console.log(portrait_cont);
+        // console.log(portrait_cont);
 
         //Fill container with member info elements
         portrait_cont.append(img_elem,name_elem,role_elem,interests_elem);
 
         if (imgs_this_row < max_per_row) {
-            console.log("appending",imgs_this_row,max_per_row);
             //Add filled container to row and count
             portrait_row.append(portrait_cont);
             imgs_this_row++;
         } else {
             //Append row if row is full
             $("#main_portrait_cont").append(portrait_row);
+
             //Reset row container
             portrait_row = $('<div></div>', {
                 "class": "portrait_row row_top scripted"
             });
+
             imgs_this_row = 0;
             portrait_row.append(portrait_cont);
             imgs_this_row++;
