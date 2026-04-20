@@ -1,7 +1,7 @@
 {
     "members": [
         {
-            "name": "Christie Rowe",
+            "name": "Prof. Christie Rowe",
             "role": "Director, Nevada Seismological Laboratory",
             "interests": "earthquake geology, NV earthquakes",
             "img": "christie.jpeg"
@@ -22,7 +22,7 @@
             "name": "Jim Brune",
             "role": "Emeritus, Nevada Seismological Laboratory",
             "interests": "seismology, earthquake hazards, source mechanisms",
-            "img": "jim.jpeg"
+            "img": "jimbrune.jpeg"
         },
         {
             "name": "Prof. Wenrong Cao",
@@ -53,6 +53,228 @@
             "role": "Graduate Student, Nevada Seismological Laboratory",
             "interests": "ground motion modeling, paleoseismology, earthquake-induced landslides",
             "img": "carter.jpg"
+        },
+        {
+            "name": "Maggie Duncan",
+            "role": "Graduate Student, Desert Research Institute",
+            "interests": "geomorphology, mountain hydrogeology, fault-controlled groundwater",
+            "img": ""
+        },
+        {
+            "name": "Prof. Jim Faulds",
+            "role": "Professor, Nevada Bureau of Mines and Geology",
+            "interests": "structural geology, tectonics, geothermal",
+            "img": "jimfaulds.jpg"
+        },
+        {
+            "name": "Yair Franco",
+            "role": "Graduate Student, Nevada Seismological Laboratory",
+            "interests": "ground motion modeling, earthquake early warning",
+            "img": "yair.jpg"
+        },
+        {
+            "name": "Ryan Goldsby",
+            "role": "Research Scientist, Geologic Mapping Program, Nevada Bureau of Mines and Geology",
+            "interests": "geologic mapping, structural geology, thermochronology",
+            "img": "ryangoldsby.jpg"
+        },
+        {
+            "name": "Prof. Bill Hammond",
+            "role": "Research Professor, Nevada Geodetic Laboratory, Nevada Bureau of Mines and Geology",
+            "interests": "geodesy, active crustal deformation, earthquake hazards",
+            "img": "billhammond.jpg"
+        },
+        {
+            "name": "Christopher Henry",
+            "role": "Research Geologist Emeritus, Nevada Bureau of Mines and Geology",
+            "interests": "geologic mapping, igneous geology, geochronology",
+            "img": "chrishenry.png"
+        },
+        {
+            "name": "Yu Jiang",
+            "role": "Postdoctoral Researcher, Nevada Seismological Laboratory",
+            "interests": "large-scale InSAR, fault slip inversion, aseismic deformation",
+            "img": "yu.jpeg"
+        },
+        {
+            "name": "Prof. Stratis Karantanellis",
+            "role": "Assistant Professor, Department of Geological Sciences, Cal State Fullerton",
+            "interests": "geohazards, remote sensing, GIS",
+            "img": "stratis.jpg"
+        },
+        {
+            "name": "Danielle Kinkel",
+            "role": "Graduate Student, Nevada Seismological Laboratory",
+            "interests": "earthquake early warning, geoscience education",
+            "img": "danielle.jpeg"
+        },
+        {
+            "name": "Prof. Graham Kent",
+            "role": "Professor, Nevada Seismological Laboratory",
+            "interests": "seismology, seismic imaging, Walker Lane fault hazards",
+            "img": "graham.jpg"
+        },
+        {
+            "name": "Prof. Jamie Kirkpatrick",
+            "role": "Associate Professor, Department of Geological Sciences and Engineering, UNR",
+            "interests": "field geology, earthquake mechanics, rock friction experiments",
+            "img": "jamie.jpg"
+        },
+        {
+            "name": "Prof. Rich Koehler",
+            "role": "Associate Professor, Nevada Bureau of Mines and Geology",
+            "interests": "paleoseismology, tectonic geomorphology, earthquake response",
+            "img": ""
+        },
+        {
+            "name": "Chris Kratt",
+            "role": "Laboratory Coordinator, CTEMPs",
+            "interests": "gravity, magnetics, DAS",
+            "img": ""
+        },
+        {
+            "name": "Prof. Corné Kreemer",
+            "role": "Research Professor, Nevada Bureau of Mines and Geology",
+            "interests": "GPS time-series analysis, seismic hazard, earthquake statstics",
+            "img": ""
+        },
+        {
+            "name": "Prof. John Louie",
+            "role": "Professor Emeritus, Nevada Seismological Laboratory, Terēan",
+            "interests": "seismic imaging, velocity models, ground motion predictions",
+            "img": ""
+        },
+        {
+            "name": "Dana Marino",
+            "role": "Graduate Student, Nevada Seismological Laboratory",
+            "interests": "seismic hazard in Reno urban area, tectonic geomorphology",
+            "img": ""
+        },
+        {
+            "name": "Hannah Martin",
+            "role": "Graduate Student, Nevada Seismological Laboratory",
+            "interests": "paleoseismology, tectonic geomorphology, seismic hazard",
+            "img": ""
+        },
+        {
+            "name": "Simone Masoch",
+            "role": "Postdoctoral Researcher, Nevada Seismological Laboratory",
+            "interests": "structural geology, deformation mechanisms, fluid-rock interactions ",
+            "img": ""
+        },
+        {
+            "name": "Prof. Ben Mason",
+            "role": "Associate Professor, Department of Geological Sciences and Engineering, UNR",
+            "interests": "geological earthquake engineering, cascading hazards",
+            "img": ""
+        },
+        {
+            "name": "Nina Miller",
+            "role": "Graduate Student, Department of Geological Sciences and Engineering, UNR",
+            "interests": "geodetic data, crustal deformation, geophysics",
+            "img": ""
+        },
+        {
+            "name": "Prof. Ramin Motamed",
+            "role": "Professor, Civil and Environmental Engineering, UNR",
+            "interests": "ground motions, site response analysis, liquefaction",
+            "img": ""
+        },
+        {
+            "name": "Prof. Saeedeh Naziri",
+            "role": "Teaching Assistant Professor, Department of Geological Sciences and Engineering, UNR",
+            "interests": "",
+            "img": ""
+        },
+        {
+            "name": "Annie Patton",
+            "role": "Graduate Student, Nevada Seismological Laboratory",
+            "interests": "source properties of small earthquakes, rupture directivity, moment magnitude",
+            "img": ""
+        },
+        {
+            "name": "Prof. Floriana Petrone",
+            "role": "Assistant Professor, Civil and Environmental Engineering, UNR",
+            "interests": "stochastic safety assessments, reinforced concrete modelling, structural damage",
+            "img": ""
+        },
+        {
+            "name": "Prof. Remnin Pretell",
+            "role": "Assistant Professor, Civil and Environmental Engineering, UNR",
+            "interests": "seismic site response, ground motions, soil spatial varaibility and liquefaction effects",
+            "img": ""
+        },
+        {
+            "name": "Prof. Kathleen Rodrigues",
+            "role": "Assisstant Professor, Desert Research Institute",
+            "interests": "quaternary geochronology, geomorphology",
+            "img": ""
+        },
+        {
+            "name": "Prof. Keri Ryan",
+            "role": "Chair, Civil and Environmental Engineering, UNR",
+            "interests": "seismic protection of buildings and bridges, large shake table tests",
+            "img": ""
+        },
+        {
+            "name": "Bill Savran",
+            "role": "Network Manager, Nevada Seismological Laboratory",
+            "interests": "seismology, seismic hazard",
+            "img": ""
+        },
+        {
+            "name": "Prof. Elnaz Seylabi",
+            "role": "Assistant Professor, Civil and Environmental Engineering, UNR",
+            "interests": "engineering seismology, engineering mechanics, uncertainty quantification",
+            "img": ""
+        },
+        {
+            "name": "Ken Smith",
+            "role": "Emeritus, Nevada Seismological Laboratory",
+            "interests": "earthquake seismology, networks",
+            "img": ""
+        },
+        {
+            "name": "Charles Trexler",
+            "role": "Research Geologist, Earthquake Science Center, USGS",
+            "interests": "geomorphology, active tectonics, structural geology",
+            "img": ""
+        },
+        {
+            "name": "Prof. Daniel Trugman",
+            "role": "Associate Professor, Nevada Seismological Laboratory",
+            "interests": "earthquake seismology",
+            "img": ""
+        },
+        {
+            "name": "Nicol Wagoner",
+            "role": "Graduate Student, Department of Geological Sciences and Engineering, UNR",
+            "interests": "geothermal energy, subsurface characterization, geochemistry",
+            "img": ""
+        },
+        {
+            "name": "Prof. Steve Wesnousky",
+            "role": "Professor, Nevada Seismological Laboratory",
+            "interests": "seismic hazard, neotectonics and earthquake geology in western Nevada-Walker Lane",
+            "img": ""
+        },
+        {
+            "name": "Prof. Brad Wham",
+            "role": "Assistant Professor, Civil and Environmental Engineering, UNR",
+            "interests": "hazard resistent lifeline systems, seismic design codes and standards",
+            "img": ""
+        },
+        {
+            "name": "Randy Williams",
+            "role": "Geologist, U.S. Bureau of Reclamation",
+            "interests": "paleoseismology, earthquake hazards, dam safety, fault fluid interactions, statistical seismology",
+            "img": ""
+        },
+        {
+            "name": "Maia Zhang",
+            "role": "Graduate Student, Nevada Seismological Laboratory",
+            "interests": "big data seismology, earthquake dynamics and clustering",
+            "img": ""
         }
     ]
 }

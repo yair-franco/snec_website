@@ -1,3 +1,7 @@
+//All members data stored in members.json
+//Can be updated manually as more members join/leave the organization
+``
+
 console.log("Yair Franco, 2026");
 const jsonFilePath = './members.json';
 
@@ -18,7 +22,25 @@ async function loadMembers() {
         const data = await response.json();
 
         // Process the members data
-        const members = data.members;
+        let members = data.members;
+
+        //Sort alphabetically by surname
+        //Assumes surname is the last whitespace-separated word in the name (i.e. it will include hyphens)
+        //For some naming customs (e.g. Chinese, Hispanic) the family name is not the last word in the name
+        //The JSON data should be formatted after the individual's preferred naming custom
+
+        //First member (director) is left as the first index
+        const firstMember = members[0];
+        const remainingMembers = members.slice(1);
+
+        remainingMembers.sort((a, b) => {
+            const lastNameA = a.name.split(' ').pop().toLowerCase(); // Get last name of member A
+            const lastNameB = b.name.split(' ').pop().toLowerCase(); // Get last name of member B
+            return lastNameA.localeCompare(lastNameB); // Compare last names
+        });
+
+        members = [firstMember, ...remainingMembers];
+
         generatePortraits(members);
     } catch (error) {
         console.error('Error loading members:', error);
@@ -43,8 +65,9 @@ function generatePortraits(members) {
         const name = member.name;
         const role = member.role;
         const interests = member.interests;
-        const img = member.img;
-        
+        //if img field is blank, use default portrait
+        const img = member.img ? member.img : "default.jpg";
+         
         console.log("data:",name, role, interests,img)
 
         //Create html elements for each item 
@@ -79,8 +102,6 @@ function generatePortraits(members) {
             portrait_row.append(portrait_cont);
             imgs_this_row++;
         } else {
-
-            console.log("need a new row",imgs_this_row,max_per_row);
             //Append row if row is full
             $("#main_portrait_cont").append(portrait_row);
             //Reset row container
@@ -92,4 +113,6 @@ function generatePortraits(members) {
             imgs_this_row++;
         }
     });
-}
+    //After loop ends, appends remaining portraits
+    $("#main_portrait_cont").append(portrait_row);
+}           
